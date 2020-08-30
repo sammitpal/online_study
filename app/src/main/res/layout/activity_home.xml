@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="20dp"
+        android:background="#e1f6ff">
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#2c2d2f"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/logo"
+            android:layout_marginLeft="15dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Streams with Courses"
+        android:textSize="20dp"
+        android:textColor="#2c2d2f"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:cardCornerRadius="30dp"
+            app:cardBackgroundColor="#e1f6ff"
+            app:cardElevation="15dp">
+            <RelativeLayout
+                android:id="@+id/computersc"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:includeFontPadding="false"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Computer Science"
+                    android:gravity="center"
+                    android:textColor="#2c2d2f"
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:cardCornerRadius="30dp"
+            app:cardBackgroundColor="#e1f6ff"
+            app:cardElevation="15dp">
+            <RelativeLayout
+                android:id="@+id/ece"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:includeFontPadding="false"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Electronics"
+                    android:textColor="#2c2d2f"
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:cardCornerRadius="30dp"
+            app:cardBackgroundColor="#e1f6ff"
+            app:cardElevation="15dp">
+            <RelativeLayout
+                android:id="@+id/mech"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:includeFontPadding="false"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Mechanical"
+                    android:textColor="#2c2d2f"
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:cardCornerRadius="30dp"
+            app:cardBackgroundColor="#e1f6ff"
+            app:cardElevation="15dp">
+            <RelativeLayout
+                android:id="@+id/bio"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:includeFontPadding="false"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Bio Technology"
+                    android:gravity="center"
+                    android:textColor="#2c2d2f"
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:cardCornerRadius="30dp"
+            app:cardBackgroundColor="#e1f6ff"
+            app:cardElevation="15dp">
+            <RelativeLayout
+                android:id="@+id/civil"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:padding="5dp">
+
+                <TextView
+                    android:includeFontPadding="false"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Civil"
+                    android:textColor="#2c2d2f"
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            app:cardCornerRadius="30dp"
+            app:cardBackgroundColor="#e1f6ff"
+            app:cardElevation="15dp">
+            <RelativeLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/it"
+                android:padding="5dp">
+
+                <TextView
+                    android:includeFontPadding="false"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Information Technology"
+                    android:gravity="center"
+                    android:textColor="#2c2d2f"
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
