@@ -22,5 +22,10 @@ public class PDFview extends AppCompatActivity {
             pdfView.loadUrl("https://drive.google.com/viewerng/viewer?embedded=true&url=https://www.tutorialspoint.com/cplusplus/cpp_tutorial.pdf");
 
         }
+        if(Courses.y==2)
+        {
+            pdfView.loadUrl("https://drive.google.com/viewerng/viewer?embedded=true&url=https://www.tutorialspoint.com/java/java_tutorial.pdf");
+
+        }
     }
 }
