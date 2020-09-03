@@ -84,7 +84,7 @@ public class Create extends AppCompatActivity {
                     {
                         Toast.makeText(Create.this,"Verification Mail sent",Toast.LENGTH_LONG).show();
                         Toast.makeText(Create.this,"Account Created Successfully",Toast.LENGTH_LONG).show();
-                        Intent intent = new Intent(Create.this,Login.class);
+                        Intent intent = new Intent(Create.this,Complete_Profile.class);
                         startActivity(intent);
                         finish();
                     }

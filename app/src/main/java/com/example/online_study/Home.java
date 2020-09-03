@@ -54,6 +54,10 @@ public class Home extends AppCompatActivity {
             case R.id.about:    Intent intent1 = new Intent(Home.this, about.class);
                                 startActivity(intent1);
                                 break;
+
+            case R.id.profile: Intent intent2 = new Intent(Home.this,Profile.class);
+                               startActivity(intent2);
+                               break;
         }
         return super.onOptionsItemSelected(item);
     }
