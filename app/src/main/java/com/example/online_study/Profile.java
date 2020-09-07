@@ -9,6 +9,7 @@ import android.provider.ContactsContract;
 import android.provider.MediaStore;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
@@ -66,7 +67,7 @@ public class Profile extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-
+                Toast.makeText(Profile.this, "Retry!", Toast.LENGTH_SHORT).show();
             }
         });
 

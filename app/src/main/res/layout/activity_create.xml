@@ -26,7 +26,7 @@
             android:textSize="30dp"
             android:textStyle="bold"
             android:textColor="#2c2d2f"
-            android:fontFamily="casual"
+            android:fontFamily="@font/ps_r"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/logo"
             android:layout_marginLeft="15dp"/>
@@ -38,6 +38,7 @@
             android:layout_marginTop="5dp"
             android:textStyle="bold"
             android:textColor="#2c2d2f"
+            android:fontFamily="@font/ps_r"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/logo"
             android:layout_below="@+id/header"
@@ -69,6 +70,7 @@
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="Already an User? Sign In"
+                    android:fontFamily="@font/ps_r"
                     android:textColor="#2c2d2f"
                     android:textSize="20dp" />
             </RelativeLayout>
@@ -87,6 +89,7 @@
             android:layout_height="wrap_content"
             android:text="REGISTRATION"
             android:textColor="#2c2d2f"
+            android:fontFamily="@font/ps_r"
             android:textSize="20dp"
             android:layout_marginBottom="20dp"
             android:textStyle="bold"/>
@@ -99,6 +102,7 @@
                 android:inputType="textEmailAddress"
                 android:textColor="#2c2d2f"
                 android:padding="15dp"
+                android:fontFamily="@font/ps_b"
                 android:hint="Email"
                 android:drawableLeft="@drawable/ic_baseline_email_24"
                 android:drawablePadding="15dp"/>
@@ -110,6 +114,7 @@
                 android:inputType="textPassword"
                 android:textColor="#2c2d2f"
                 android:padding="15dp"
+                android:fontFamily="@font/ps_b"
                 android:hint="Password"
                 android:drawableLeft="@drawable/ic_baseline_lock_24"
                 android:drawablePadding="15dp"/>
@@ -122,6 +127,7 @@
                 android:inputType="textPassword"
                 android:textColor="#2c2d2f"
                 android:padding="15dp"
+                android:fontFamily="@font/ps_b"
                 android:hint="Confirm Password"
                 android:drawableLeft="@drawable/ic_baseline_lock_24"
                 android:drawablePadding="15dp"/>
@@ -133,6 +139,7 @@
             android:layout_marginTop="30dp"
             android:text="Register"
             android:textColor="#fff"
+            android:fontFamily="@font/ps_b"
             android:textStyle="bold"
             android:textSize="20dp"
             android:background="@drawable/buttonback"/>

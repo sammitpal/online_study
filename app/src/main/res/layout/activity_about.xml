@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".about">
+    tools:context=".about"
+    android:background="#e1f6ff">
 
     <ImageView
         android:id="@+id/logo"
@@ -21,6 +22,7 @@
         android:layout_marginTop="20dp"
         android:textColor="#2c2d2f"
         android:textSize="18dp"
+        android:fontFamily="@font/ps_r"
         android:text="Version"
         android:layout_centerHorizontal="true"/>
 
@@ -37,6 +39,7 @@
             android:textColor="#fff"
             android:textSize="18dp"
             android:layout_marginLeft="20dp"
+            android:fontFamily="@font/ps_b"
             android:layout_marginRight="20dp"
             android:layout_centerInParent="true"
             android:text="Study Online\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t©Sammit Pal" />

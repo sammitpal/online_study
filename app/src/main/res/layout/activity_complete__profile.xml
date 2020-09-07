@@ -22,6 +22,7 @@
             android:layout_marginLeft="15dp"
             android:gravity="center"
             android:text="Study Online"
+            android:fontFamily="@font/ps_b"
             android:textColor="#2c2d2f"
             android:textSize="30dp"
             android:textStyle="bold" />
@@ -32,6 +33,7 @@
             android:textSize="15dp"
             android:textColor="#2c2d2f"
             android:gravity="center"
+            android:fontFamily="@font/ps_b"
             android:layout_marginTop="15dp"
             android:layout_below="@+id/yp"
             android:layout_centerInParent="true"
@@ -70,6 +72,7 @@
                     android:layout_marginTop="36dp"
                     android:layout_marginRight="20dp"
                     android:hint="Your Name"
+                    android:fontFamily="@font/ps_b"
                     android:inputType="textPersonName"
                     android:textColor="#2c2d2f"
                     android:textSize="20dp" />
@@ -83,6 +86,7 @@
                     android:layout_marginTop="36dp"
                     android:layout_marginRight="20dp"
                     android:hint="Email"
+                    android:fontFamily="@font/ps_b"
                     android:inputType="textEmailAddress"
                     android:textColor="#2c2d2f"
                     android:textSize="20dp" />
@@ -97,6 +101,7 @@
                     android:layout_marginRight="20dp"
                     android:hint="Phone Number"
                     android:inputType="phone"
+                    android:fontFamily="@font/ps_b"
                     android:textColor="#2c2d2f"
                     android:textSize="20dp" />
 
@@ -109,6 +114,7 @@
                     android:textColor="#fff"
                     android:textStyle="bold"
                     android:textSize="20dp"
+                    android:fontFamily="@font/ps_b"
                     android:layout_below="@+id/phone"
                     android:background="@drawable/buttonback"/>
             </RelativeLayout>
