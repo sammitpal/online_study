@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".Profile"
     android:orientation="vertical"
-    android:background="#e1f6ff">
+    android:background="#65FAE7">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:padding="20dp"
-        android:background="#e1f6ff">
+        android:background="#65FAE7">
 
         <TextView
             android:id="@+id/yp"
@@ -22,7 +22,7 @@
             android:layout_marginLeft="15dp"
             android:gravity="center"
             android:text="YOUR PROFILE"
-            android:textColor="#2c2d2f"
+            android:textColor="#232322"
             android:textSize="30dp"
             android:textStyle="bold" />
     </RelativeLayout>

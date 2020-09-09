@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#e1f6ff">
+    android:background="#65FAE7">
 
     <TextView
         android:layout_width="wrap_content"
@@ -14,7 +14,7 @@
         android:layout_marginTop="100dp"
         android:text="Study Online"
         android:textAlignment="center"
-        android:textColor="#2b2d2f"
+        android:textColor="#232322"
         android:textSize="50dp"
         android:fontFamily="@font/ps_r"
         android:textStyle="bold"
@@ -43,7 +43,7 @@
         android:layout_marginTop="5dp"
         android:fontFamily="@font/ps_r"
         android:textStyle="bold"
-        android:textColor="#2c2d2f"
+        android:textColor="#232322"
         android:layout_margin="600dp"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="15dp"/>
