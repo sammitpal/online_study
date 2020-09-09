@@ -16,13 +16,13 @@
             android:id="@+id/header"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Courses"
-            android:textSize="30dp"
+            android:text="@string/courses"
+            android:textSize="30sp"
             android:textStyle="bold"
             android:fontFamily="@font/ps_r"
             android:textColor="#232322"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="15dp"/>
+            android:layout_marginStart="15dp"/>
     </RelativeLayout>
     <TextView
         android:layout_width="wrap_content"

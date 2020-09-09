@@ -19,25 +19,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:gravity="center"
-            android:text="Study Online"
+            android:text="@string/study_online"
             android:fontFamily="@font/ps_b"
             android:textColor="#232322"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textStyle="bold" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Please Fill up the form with required details"
-            android:textSize="15dp"
+            android:text="@string/please_fill_up_the_form_with_required_details"
+            android:textSize="15sp"
             android:textColor="#232322"
             android:gravity="center"
             android:fontFamily="@font/ps_b"
             android:layout_marginTop="15dp"
             android:layout_below="@+id/yp"
             android:layout_centerInParent="true"
-            android:layout_marginLeft="15dp"/>
+            android:layout_marginStart="15dp"/>
     </RelativeLayout>
 
     <LinearLayout
@@ -61,7 +61,8 @@
                         android:layout_height="110dp"
                         android:layout_marginTop="20dp"
                         android:src="@drawable/photologo"
-                        android:layout_centerHorizontal="true"/>
+                        android:layout_centerHorizontal="true"
+                        android:contentDescription="@string/profile_photo" />
 
                 <EditText
                     android:id="@+id/username"
@@ -71,11 +72,12 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="36dp"
                     android:layout_marginRight="20dp"
-                    android:hint="Your Name"
+                    android:hint="@string/your_name"
                     android:fontFamily="@font/ps_b"
                     android:inputType="textPersonName"
                     android:textColor="#2c2d2f"
-                    android:textSize="20dp" />
+                    android:textSize="20sp"
+                    android:importantForAutofill="no" />
 
                 <EditText
                     android:id="@+id/useremail"
@@ -85,11 +87,12 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="36dp"
                     android:layout_marginRight="20dp"
-                    android:hint="Email"
+                    android:hint="@string/email"
                     android:fontFamily="@font/ps_b"
                     android:inputType="textEmailAddress"
                     android:textColor="#2c2d2f"
-                    android:textSize="20dp" />
+                    android:textSize="20sp"
+                    android:importantForAutofill="no" />
 
                 <EditText
                     android:id="@+id/phone"
@@ -99,21 +102,22 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="36dp"
                     android:layout_marginRight="20dp"
-                    android:hint="Phone Number"
+                    android:hint="@string/phone_number"
                     android:inputType="phone"
                     android:fontFamily="@font/ps_b"
                     android:textColor="#2c2d2f"
-                    android:textSize="20dp" />
+                    android:textSize="20sp"
+                    android:importantForAutofill="no" />
 
                 <Button
                     android:id="@+id/upload"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
-                    android:text="Upload"
+                    android:text="@string/upload"
                     android:textColor="#fff"
                     android:textStyle="bold"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     android:fontFamily="@font/ps_b"
                     android:layout_below="@+id/phone"
                     android:background="@drawable/buttonback"/>

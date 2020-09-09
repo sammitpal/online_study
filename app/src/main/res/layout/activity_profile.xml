@@ -19,11 +19,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:gravity="center"
-            android:text="YOUR PROFILE"
+            android:text="@string/your_profile"
             android:textColor="#232322"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textStyle="bold" />
     </RelativeLayout>
 
@@ -50,7 +50,8 @@
                     android:layout_height="100dp"
                     android:layout_marginTop="20dp"
                     android:src="@drawable/photologo"
-                    android:layout_centerHorizontal="true"/>
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/profile_photo" />
 
                 <TextView
                     android:id="@+id/uname"
@@ -61,7 +62,7 @@
                     android:layout_marginTop="36dp"
                     android:layout_marginRight="20dp"
                     android:textColor="#2c2d2f"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/umail"
@@ -72,7 +73,7 @@
                     android:layout_marginTop="36dp"
                     android:layout_marginRight="20dp"
                     android:textColor="#2c2d2f"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/uphone"
@@ -83,7 +84,7 @@
                     android:layout_marginTop="36dp"
                     android:layout_marginRight="20dp"
                     android:textColor="#2c2d2f"
-                    android:textSize="20dp" />
+                    android:textSize="20sp" />
             </RelativeLayout>
 
         </androidx.cardview.widget.CardView>

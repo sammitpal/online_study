@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Online_Study</string>
+    <string name="your_profile">YOUR PROFILE</string>
+    <string name="profile_photo">Profile Photo</string>
+    <string name="logo">Logo</string>
+    <string name="study_online">Study Online</string>
+    <string name="turn_your_passion_into_your_profession">Turn your Passion into your Profession</string>
+    <string name="new_user_register_here">New User? Register Here</string>
+    <string name="user_login">USER LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="version">Version</string>
+    <string name="study_online_t_t_t_t_t_t_t_t_t_t_t_t_t_t_t_t_t_u00a9_sammit_pal">Study Online\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t © Sammit Pal</string>
+    <string name="please_fill_up_the_form_with_required_details">Please Fill up the form with required details</string>
+    <string name="your_name">Your Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="upload">Upload</string>
+    <string name="courses">Courses</string>
 </resources>
