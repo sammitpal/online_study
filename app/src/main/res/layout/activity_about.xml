@@ -27,6 +27,27 @@
         android:text="@string/version"
         android:layout_centerHorizontal="true"/>
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our New Website: "
+        android:layout_below="@+id/version"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here"
+        android:layout_below="@+id/version"
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"
+        android:textColor="#f0f"
+        android:onClick="Visit"
+        android:gravity="center"/>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
